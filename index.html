@@ -8,25 +8,46 @@
   <style>
     body {
       margin: 0;
-      height: 100vh;
+      min-height: 100vh;
       background-color: #D8BFD8; /* Pastell-Lila */
+      font-family: 'Poppins', sans-serif;
+      color: black;
+      text-align: center;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      font-family: 'Poppins', sans-serif;
-      color: black;
-      font-size: 45px;
-      text-align: center;
     }
+
     p {
       margin: 10px 0;
+      font-size: 45px;
+    }
+
+    /* Container für die Bilder */
+    .image-container {
+      display: flex;
+      justify-content: center; /* Bilder nebeneinander zentrieren */
+      gap: 20px; /* Abstand zwischen den Bildern */
+      margin-top: 20px; /* Abstand zwischen Text und Bildern */
+    }
+
+    .image-container img {
+      max-width: 200px; /* Breite der Bilder */
+      height: auto;
     }
   </style>
 </head>
 <body>
+  <!-- Text -->
   <p>Welcome to Nana Yaa's Website.</p>
   <p><em>Welcome to Nana Yaa's Website.</em></p>
   <p><strong>Welcome to Nana Yaa's Website.</strong></p>
+
+  <!-- Bilder nebeneinander -->
+  <div class="image-container">
+    <img src="Bild 1.jpg" alt="Bild 1">
+    <img src="Bild 2.jpg" alt="Bild 2">
+  </div>
 </body>
 </html>
