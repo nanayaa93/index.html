@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nana Yaa's Website</title>
+</head>
+<body>
+  <p>Welcome to Nana Yaa's Website.</p>
+  <p><em>Welcome to Nana Yaa's Website.</em></p>
+  <p><strong>Welcome to Nana Yaa's Website.</strong></p>
+</body>
+</html>
